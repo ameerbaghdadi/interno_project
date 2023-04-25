@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/interno_project/static/css/main.182be5f8.css",
+    "main.js": "/interno_project/static/js/main.47981ed8.js",
+    "static/js/787.49a98185.chunk.js": "/interno_project/static/js/787.49a98185.chunk.js",
+    "static/media/banner-image.jpg": "/interno_project/static/media/banner-image.52442150b0d2b6336f86.jpg",
+    "static/media/project-1.png": "/interno_project/static/media/project-1.41e108596f54c761492a.png",
+    "static/media/project-3.png": "/interno_project/static/media/project-3.0b971dc8beee5ef99ebd.png",
+    "static/media/project-4.png": "/interno_project/static/media/project-4.86af2728a66ea1654fc0.png",
+    "static/media/project-2.png": "/interno_project/static/media/project-2.1ebbbb28edd5404074fd.png",
+    "static/media/about-us-image.jpg": "/interno_project/static/media/about-us-image.407c9ba7b5b03b88ba09.jpg",
+    "static/media/blog-2.png": "/interno_project/static/media/blog-2.93daae11c92d8a4676a4.png",
+    "static/media/Jost-400-Book.ttf": "/interno_project/static/media/Jost-400-Book.5273c9d5eae952e7b650.ttf",
+    "static/media/blog-1.jpg": "/interno_project/static/media/blog-1.f3762b4901e7e41210a6.jpg",
+    "static/media/blog-3.png": "/interno_project/static/media/blog-3.bb19e3a7aaeea9a026d1.png",
+    "index.html": "/interno_project/index.html",
+    "main.182be5f8.css.map": "/interno_project/static/css/main.182be5f8.css.map",
+    "main.47981ed8.js.map": "/interno_project/static/js/main.47981ed8.js.map",
+    "787.49a98185.chunk.js.map": "/interno_project/static/js/787.49a98185.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.182be5f8.css",
+    "static/js/main.47981ed8.js"
+  ]
+}
