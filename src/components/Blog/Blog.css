@@ -1,0 +1,61 @@
+.blog h1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.blog .sub-title {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.blog img {
+  border-radius: 45px 45px 0px 0px;
+  padding: 5%;
+}
+
+.tag {
+  position: absolute;
+  width: 124px;
+  height: 41px;
+  left: 41px;
+  top: 280px;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 0px;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.blog .more-arrow {
+  width: auto;
+}
+
+.blog p {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.second-card .card {
+  background-color: #e7e7e7;
+}

@@ -1,0 +1,18 @@
+.counter {
+  background: #f4f0ec;
+}
+
+.counter h1 {
+  color: #cda274;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+}
+
+.vl {
+  border-left: 2px solid #cda274;
+  height: 130px;
+}

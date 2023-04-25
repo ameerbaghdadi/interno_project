@@ -1,0 +1,57 @@
+.project h2 {
+  font-size: 3rem;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.project p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  width: auto;
+}
+
+.project-img {
+  height: 70px;
+}
+
+.project span {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+}
+
+.project-1 {
+  border-radius: 0px 80px 0px 0px;
+  width: 110%;
+}
+
+.project-2 {
+  border-radius: 80px 0px 0px 0px;
+  width: 110%;
+}
+
+.project-3 {
+  border-radius: 0px 0px 80px 0px;
+  width: 110%;
+}
+
+.project-4 {
+  border-radius: 0px 0px 0px 80px;
+  width: 110%;
+}
+
+.more-info {
+  display: flex;
+  justify-content: space-between;
+}
