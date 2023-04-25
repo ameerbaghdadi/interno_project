@@ -33,17 +33,17 @@ function Blog() {
   ];
 
   return (
-    <section class="blog">
-      <div class="container">
-        <div class="text-center px-5 my-5">
+    <section className="blog">
+      <div className="container">
+        <div className="text-center px-5 my-5">
           <h1>Articles & News</h1>
-          <p class="sub-title px-5">
+          <p className="sub-title px-5">
             It is a long established fact that a reader will be distracted by
             the of readable content of a page when lookings at its layouts the
             points of using.
           </p>
         </div>
-        <div class="row">
+        <div className="row">
           {data.map((item, index) => (
             <div
               key={index}
@@ -53,22 +53,22 @@ function Blog() {
                   : "col-md-4 col-sm"
               }
             >
-              <div class="card px-2 py-3 my-3 rounded-5">
+              <div className="card px-2 py-3 my-3 rounded-5">
                 <img
-                  class="card-img-top"
+                  className="card-img-top"
                   src={item.image}
                   alt="Card image cap"
                 />
-                <div class="tag ps-2">{item.title}</div>
-                <div class="card-body">
-                  <p class="card-text text-start">{item.subTitle}</p>
-                  <div class="d-flex justify-content-between mt-5">
-                    <div class="pt-3">
+                <div className="tag ps-2">{item.title}</div>
+                <div className="card-body">
+                  <p className="card-text text-start">{item.subTitle}</p>
+                  <div className="d-flex justify-content-between mt-5">
+                    <div className="pt-3">
                       <span>{item.date}</span>
                     </div>
                     <div>
                       <img
-                        class="more-arrow"
+                        className="more-arrow"
                         src={item.arrow}
                         alt="more arrow"
                       />

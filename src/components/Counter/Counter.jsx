@@ -26,11 +26,11 @@ function Counter() {
   ];
 
   return (
-    <section class="counter py-5 text-center">
-      <div class="container-fluid">
-        <div class="row text-center">
+    <section className="counter py-5 text-center">
+      <div className="container-fluid">
+        <div className="row text-center">
           {data.map((item) => (
-            <div class="col-md-3 vl">
+            <div key={item.id} className="col-md-3 vl">
               <h1>{item.counter}</h1>
               <p>{item.title}</p>
             </div>

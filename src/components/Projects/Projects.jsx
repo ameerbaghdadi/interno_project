@@ -34,18 +34,18 @@ function Projects() {
   ];
 
   return (
-    <section class="project">
-      <div class="container">
-        <div class="text-center my-5">
+    <section className="project">
+      <div className="container">
+        <div className="text-center my-5">
           <h2>Follow Our Projects</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the of readable content of page lookings at its layouts points.
           </p>
         </div>
-        <div class="row justify-content-around">
+        <div className="row justify-content-around">
           {data.map((item, index) => (
-            <div key={index} class="col-md-5">
+            <div key={index} className="col-md-5">
               <img
                 className={
                   item.id === 1
@@ -61,13 +61,13 @@ function Projects() {
                 src={item.image}
                 alt={item.title}
               />
-              <div class="more-info text-start py-4">
+              <div className="more-info text-start py-4">
                 <p>
                   <span>{item.title}</span>
                   <br />
                   {item.subTitle}
                 </p>
-                <img class="project-img" src={item.arrow} alt="next arrow" />
+                <img className="project-img" src={item.arrow} alt="next arrow" />
               </div>
             </div>
           ))}

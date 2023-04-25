@@ -27,15 +27,15 @@ const data = [
 
 function Work() {
   return (
-    <section class="work mt-5">
-      <div class="container">
-        <div class="row text-center">
+    <section className="work mt-5">
+      <div className="container">
+        <div className="row text-center">
           {data.map((item) => (
-            <div class="col-md-4 col-sm py-3">
+            <div key={item.id} className="col-md-4 col-sm py-3">
               <h3>{item.title}</h3>
               <p>{item.subTitle}</p>
               <div>
-                <button type="button" class="btn">
+                <button type="button" className="btn">
                   <strong>Read More</strong>
                 </button>
                 <img src={item.arrow} alt="arrow" />

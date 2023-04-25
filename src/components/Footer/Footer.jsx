@@ -57,25 +57,25 @@ function Footer() {
 
   return (
     <footer>
-      <div class="container mt-5 py-5">
-        <div class="row">
-          <div class="col-md-4 col-sm-6 text-start">
+      <div className="container mt-5 py-5">
+        <div className="row">
+          <div className="col-md-4 col-sm-6 text-start">
             <img src={logo.image} alt="" />
 
-            <p class="sub-title pt-3 text-start">{text.desc}</p>
-            <div class="d-flex justify-content-between">
+            <p className="sub-title pt-3 text-start">{text.desc}</p>
+            <div className="d-flex justify-content-between">
               {icon.map((item) => (
-                <div class="col-md-3 py-4 text-start">
+                <div key={item.id} className="col-md-3 py-4 text-start">
                   <img src={item.icon} alt={item.alt} />
                 </div>
               ))}
             </div>
           </div>
 
-          {pages.map((item) => (
-            <div class="col-md-2 text-start">
+          {pages.map((item, index) => (
+            <div key={index} className="col-md-2 text-start">
               <h3>{item.label}</h3>
-              <div class="list">
+              <div className="list">
                 <div>{item.aboutUs}</div>
                 <div>{item.ourProject}</div>
                 <div>{item.outTeam}</div>
@@ -85,10 +85,10 @@ function Footer() {
             </div>
           ))}
 
-          {services.map((item) => (
-            <div class="col-md-2 text-start">
+          {services.map((item, index) => (
+            <div key={index} className="col-md-2 text-start">
               <h3>{item.label}</h3>
-              <div class="list">
+              <div className="list">
                 <div>{item.kitchan}</div>
                 <div>{item.livingArea}</div>
                 <div>{item.bathroom}</div>
@@ -97,9 +97,9 @@ function Footer() {
               </div>
             </div>
           ))}
-          <div class="col-md-4 text-start">
+          <div className="col-md-4 text-start">
             <h3>Contact</h3>
-            <div class="contact-list pe-5">
+            <div className="contact-list pe-5">
               <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
               <p>contact@interno.com</p>
               <p>(123) 456 - 7890</p>
@@ -108,7 +108,7 @@ function Footer() {
         </div>
       </div>
       <hr />
-      <div class="copyright text-center">
+      <div className="copyright text-center">
         <p>
           Copyright © Interno | Designed by Victorflow Templates - Powered by
           Webflow
