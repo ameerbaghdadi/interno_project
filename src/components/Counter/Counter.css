@@ -16,3 +16,27 @@
   border-left: 2px solid #cda274;
   height: 130px;
 }
+
+.counter :first-child {
+  border-left: none;
+}
+
+@media screen and (max-width: 560px) {
+  .vl {
+    border-bottom: 2px solid #cda274;
+    border-left: none;
+  }
+
+  .counter :last-child {
+    border-bottom: none;
+    border-left: none;
+  }
+
+  .counter > div > div > div {
+    border-bottom: 2px solid #cda274;
+  }
+
+  .counter h1 {
+    font-size: 300%;
+  }
+}

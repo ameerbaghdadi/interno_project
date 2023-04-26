@@ -16,7 +16,7 @@ function Counter() {
     {
       id: 3,
       counter: 15,
-      subTitle: "Active Project",
+      title: "Active Project",
     },
     {
       id: 4,

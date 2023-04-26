@@ -55,3 +55,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 560px) {
+  .more-info {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+}

@@ -36,3 +36,27 @@
   color: #ffffff;
   padding: 1rem;
 }
+
+@media screen and (max-width: 560px) {
+  .intro {
+    height: 35em;
+  }
+
+  .intro h1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75em;
+    line-height: 125%;
+  }
+
+  .intro p {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+  }
+}
